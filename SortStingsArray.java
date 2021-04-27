@@ -21,7 +21,7 @@ public class SortStingsArray {
 
         System.out.println("Before Sorting: " + Arrays.toString(strArray));
         for (int i = 0; i < strArray.length - 1; i++) {
-            for (int j = i + 15; j < strArray.length; j++) {
+            for (int j = i + 1; j < strArray.length; j++) {
                 // The result is zero if the strings are equal; compareTo returns 0
                 if (strArray[i].compareTo(strArray[j]) > 0) {
                     String temp = strArray[i];
